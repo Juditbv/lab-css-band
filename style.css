@@ -30,6 +30,10 @@ h2 {
   font-size: 3rem;
 }
 
+h3 {
+  font-size: 2.2rem;
+}
+
 .quote-header {
   position: absolute;
   bottom: 3rem;
@@ -60,10 +64,27 @@ a {
   text-decoration: none;
 }
 
+.albums-list ul {
+  list-style-type: none;
+}
+
+.albums-list {
+  line-height: 2.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.date-album {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1rem;
+}
+
 /* general styles */
 .margin-top-small {
   margin-top: 1.5rem;
 }
+
 .margin-top-medium {
   margin-top: 3rem;
 }
@@ -74,4 +95,12 @@ a {
 
 .text-align-center {
   text-align: center;
+}
+
+.container-padding-medium {
+  padding: 3rem;
+}
+
+.container-secondary {
+  background-color: #2e2e2e;
 }
