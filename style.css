@@ -3,22 +3,75 @@
 * {
   margin: 0;
   padding: 0;
+  max-width: 100%;
 }
 
 :root {
   font-size: 16px;
-  line-height: 1.5rem;
   font-family: "Open Sans", sans-serif;
 }
 
 header {
   height: 70vh;
-  width: 100%;
+  overflow: hidden;
   background-image: url("./images/imagine-dragons-header-bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 3rem;
+  position: relative;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  text-shadow: 0.8rem 0.4rem black;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.quote-header {
+  position: absolute;
+  bottom: 3rem;
+  font-size: 2rem;
+}
+
+.top-nav {
+  padding: 2rem 0;
+}
+
+.top-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.top-nav a {
+  color: black;
+}
+
+.top-nav a:hover {
+  color: rgb(125, 3, 177);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* general styles */
+.margin-top-small {
+  margin-top: 1.5rem;
+}
+.margin-top-medium {
+  margin-top: 3rem;
+}
+
+.inverse {
+  color: white;
+}
+
+.text-align-center {
+  text-align: center;
 }
