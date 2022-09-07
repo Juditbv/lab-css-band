@@ -87,24 +87,6 @@ a {
   font-size: 1rem;
 }
 
-.card-primary {
-  box-shadow: 0.2rem 0.5rem 0.5rem #e1e1e1;
-  border-radius: 2rem;
-  margin: 2rem;
-  overflow: hidden;
-  width: 45%;
-}
-
-.card-primary > div {
-  width: 100%;
-  max-height: 300px;
-  overflow: hidden;
-}
-
-.card-primary img {
-  width: 100%;
-}
-
 /* general styles */
 .margin-top-small {
   margin-top: 1.5rem;
@@ -132,4 +114,22 @@ a {
 
 .container-secondary {
   background-color: #2e2e2e;
+}
+
+.card-primary {
+  box-shadow: 0.2rem 0.5rem 0.5rem #e1e1e1;
+  border-radius: 2rem;
+  margin: 2rem;
+  overflow: hidden;
+  width: 45%;
+}
+
+.card-primary > div {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.card-primary img {
+  width: 100%;
 }
