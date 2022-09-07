@@ -115,12 +115,15 @@ a {
 .container-secondary {
   background-color: #2e2e2e;
 }
+
 .card {
   border-radius: 2rem;
   margin: 2rem;
   overflow: hidden;
-  width: 45%;
+  width: 40%;
+  height: 650px;
 }
+
 .card-primary {
   box-shadow: 0.2rem 0.5rem 0.5rem #e1e1e1;
 }
@@ -142,9 +145,10 @@ a {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 hr {
   border-color: #2e2e2e;
-  border-width: 0.2rem;
+  border-width: 0.1rem;
 }
